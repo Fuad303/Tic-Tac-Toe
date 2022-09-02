@@ -19,7 +19,7 @@ const ticTacToe = (element, index) => {
     element.disabled = true;
     cells[index] = currentPlayer;
     currentPlayer = currentPlayer == 'X' ? 'O' : 'X';
-    result.innerHTML = 'Player ${currentPlayer} Turn';
+    result.innerHTML = `Player ${currentPlayer} Turn`;
 
     for (let i = 0; i < conditions.length; i++){
         let condition = conditions[i];
