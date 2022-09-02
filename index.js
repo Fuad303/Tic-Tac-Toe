@@ -32,7 +32,7 @@ const ticTacToe = (element, index) => {
         }
     
         if((a == b) && (b == c)){
-            result.innerHTML = 'Player ${a} Won';
+            result.innerHTML = `Player ${a} Won`;
             btns.forEach((btn) => btn.disabled = true);
         }
     }
